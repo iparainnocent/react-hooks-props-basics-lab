@@ -1,12 +1,21 @@
 import React from "react";
 
-function NavBar() {
+ function NavBar() {
   return (
     <nav>
-      <a href="#home">Home</a>
-      <a href="#about">About</a>
+      <div className="logo">My App</div>
+      <ul>
+        <li>
+          <a href="#">Home</a>
+        </li>
+        <li>
+          <a href="#">About</a>
+        </li>
+        <li>
+          <a href="#">Links</a>
+        </li>
+      </ul>
     </nav>
   );
 }
-
 export default NavBar;
